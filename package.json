@@ -1,0 +1,40 @@
+{
+  "name": "jocoone.github.io",
+  "version": "1.0.0",
+  "description": "Jocoone github pages",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocoone/jocoone.github.io.git"
+  },
+  "keywords": [
+    "Gatsby",
+    "React"
+  ],
+  "author": "Joey Comhaire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jocoone/jocoone.github.io/issues"
+  },
+  "homepage": "https://github.com/jocoone/jocoone.github.io#readme",
+  "dependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-react": "^7.12.4",
+    "gatsby": "^2.2.5",
+    "gatsby-cli": "^2.4.17",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
